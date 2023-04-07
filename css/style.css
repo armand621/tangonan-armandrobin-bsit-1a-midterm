@@ -1,0 +1,51 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root{
+    --color-white: #FFFFFF;
+    --color-black: #000000;
+    --txt-shadow: 2px 2px 0px var(--color-black);
+}
+
+#mywebsite{
+    display: grid;
+    place-items: center;
+
+}
+
+/* This is the css for the landing sectin of the website */
+
+#landing{
+
+    background: linear-gradient(0deg, rgba(255,255,255, 0.4), rgba(0,0,0,0.4)), url('../img/landing-img.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+    color: var(--color-white);
+}
+
+#landing h1{
+    font-size: 46px;
+    margin-top: -30px;
+    text-shadow: var(--txt-shadow);
+}
+
+#landing p{
+    font-size: 15px;
+    text-align: center;
+    margin-top: 10px;
+    text-shadow: var(--txt-shadow);
+}
+
+/* End of css for landing section of the website */
